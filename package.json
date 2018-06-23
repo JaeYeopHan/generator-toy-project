@@ -1,0 +1,22 @@
+{
+  "name": "generator-toy-project",
+  "version": "0.1.0",
+  "description": "Project scaffolding generator based yeoman-gerator",
+  "scripts": {},
+  "author": {
+    "name": "JaeYeopHan",
+    "email": "ljyhanll@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "signale": "^1.2.1"
+  },
+  "dependencies": {
+    "sync-exec": "^0.6.2",
+    "yeoman-generator": "^2.0.5"
+  }
+}
