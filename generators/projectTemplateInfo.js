@@ -1,11 +1,9 @@
-// const remoteProjectOwner = 'JaeYeopHan';
-// const remoteProjectName = 'project-template';
-const remoteProjectOwner = 'sau-tools';
-const remoteProjectName = 'sau-project-template';
+const remoteProjectOwner = 'JaeYeopHan';
+const remoteProjectName = 'toy-project-template';
 
 module.exports = {
-  getRemoteURL: (options = { branchName: 'master' }) => {
-    return `git+https://oss.navercorp.com/${remoteProjectOwner}/${remoteProjectName}.git#${
+  getRemoteURL: (options = { branchName: 'es6+' }) => {
+    return `git+https://github.com/${remoteProjectOwner}/${remoteProjectName}.git#${
       options.branchName
     }`;
   },

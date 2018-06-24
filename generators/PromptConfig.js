@@ -15,16 +15,12 @@ module.exports = {
     message: 'Select the project type',
     choices: [
       {
-        name: 'master (#master)',
-        value: 'master',
+        name: 'es6+ project (#es6+)',
+        value: 'es6+',
       },
       {
-        name: 'es6 plus (#es6p)',
-        value: 'es6p',
-      },
-      {
-        name: 'typescript (#ts)',
-        value: 'typescript',
+        name: 'typescript project (#ts)',
+        value: 'ts',
       },
       {
         name: 'Input the branch name >',
