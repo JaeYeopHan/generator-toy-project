@@ -1,6 +1,6 @@
 {
   "name": "generator-toy-project",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Project scaffolding generator based yeoman-gerator",
   "scripts": {},
   "author": {
